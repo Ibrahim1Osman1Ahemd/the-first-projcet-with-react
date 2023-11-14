@@ -1,0 +1,43 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.todoCard{
+    border: 1px solid #744979;
+    border-radius: 20px;
+    padding: 100px 85px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+}
+
+.myhead {
+    padding: 10px 0;
+}
+
+.input {
+    margin:5px 0  5px 0;
+}
+.listItem{
+    list-style-type: "👉";
+    padding: 2.5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.listItem li {
+    width: 200px;
+  cursor: pointer;
+  overflow-wrap: break-word;
+
+}
+
+.listItem span{
+    cursor: pointer;
+}
